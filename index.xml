@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filippo Brigati</title>
+    <link>https://filippobrigati.com/</link>
+    <description>Recent content on Filippo Brigati</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://filippobrigati.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unicode</title>
+      <link>https://filippobrigati.com/posts/unicode/</link>
+      <pubDate>Fri, 27 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/unicode/</guid>
+      <description>L&amp;rsquo;obiettivo dell&amp;rsquo;attività era compiere un&amp;rsquo;indagine per la realizzazione di tre progetti: il primo consisteva nel trovare dei componenti pre la realizzzazione di un assistente vocale, mentre il secondo consisteva nella ricerca di componenti per garantire la lettura del testo presente su una schermata, ed infine il terzo progetto consisteva nel trovare dei componenti per la realizzazione di un software che forsse in grado di riconoscere i movimenti di alcuni elementi grazie ad una fotocamera.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://filippobrigati.com/about/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/about/</guid>
+      <description>Ciao, Benvenuto nel mio portfolio mi chiamo Filippo Brigati e sono nato il 14-07-2002, ho 18 anni e vivo a Rivalta(Reggio Emilia).</description>
+    </item>
+    
+    <item>
+      <title>Energy Way</title>
+      <link>https://filippobrigati.com/posts/energyway/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/energyway/</guid>
+      <description>L&amp;rsquo;Obiettivo di questa attività consisteva nella creazione di grafici utilizzando i dati trovati sul sito di OpenData del comune di Reggio Emilia.</description>
+    </item>
+    
+    <item>
+      <title>Errevi System</title>
+      <link>https://filippobrigati.com/posts/errevisystem/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/errevisystem/</guid>
+      <description>L&amp;rsquo;Obiettivo di questa attività consisteva nella creazione di un sito utilizzando le API trovate sul sito di OpenWetherMap.</description>
+    </item>
+    
+    <item>
+      <title>Katanaka</title>
+      <link>https://filippobrigati.com/posts/katanaka/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/katanaka/</guid>
+      <description>L&amp;rsquo;Obiettivo di questa attività consisteva nel analizzare il sito di katanaca e trovare gli eventuali errori e miglioramenti (sia grafici che funzionali) che potevano essere corretti per garantire un&amp;rsquo;esperienza migliore all&amp;rsquo;utente finale.</description>
+    </item>
+    
+    <item>
+      <title>Tiwi</title>
+      <link>https://filippobrigati.com/posts/tiwi/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/tiwi/</guid>
+      <description>L&amp;rsquo;Obiettivo di questa attività consisteva nella creazione di un video promozionale per la tua azienda o feature di un determinato programma per farsi prestare i soldi per questo progetto.</description>
+    </item>
+    
+    <item>
+      <title>Web Ranking</title>
+      <link>https://filippobrigati.com/posts/webranking/</link>
+      <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://filippobrigati.com/posts/webranking/</guid>
+      <description>L&amp;rsquo;Obiettivo di questa attività consisteva nella creazione di un e-commerce formato da almeno tre pagine: la home, il carrello ed infine la schermata di informazione dei prodotti.</description>
+    </item>
+    
+  </channel>
+</rss>

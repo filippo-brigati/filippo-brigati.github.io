@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Unicode - Filippo Brigati</title><link rel="icon" type="image/png" href=./icons/i.svg /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Unicode" />
+<meta property="og:description" content="L&#39;obiettivo dell&#39;attività era compiere un&#39;indagine per la realizzazione di tre progetti: il primo consisteva nel trovare dei componenti pre la realizzzazione..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://filippobrigati.com/posts/unicode/" />
+<meta property="article:published_time" content="2020-11-27T02:01:58+05:30" />
+<meta property="article:modified_time" content="2020-11-27T02:01:58+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Unicode"/>
+<meta name="twitter:description" content="L&#39;obiettivo dell&#39;attività era compiere un&#39;indagine per la realizzazione di tre progetti: il primo consisteva nel trovare dei componenti pre la realizzzazione..."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://filippobrigati.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://filippobrigati.com/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://filippobrigati.com/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://filippobrigati.com/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://filippobrigati.com/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://filippobrigati.com/js/main.js"></script>
+	<script src="https://filippobrigati.com/js/abc.js"></script>
+	<script src="https://filippobrigati.com/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://filippobrigati.com/">
+	<h1 class="site-title"><a href="https://filippobrigati.com/">Filippo Brigati</a></h1>
+	<div class="site-description"><h2>Benvenuto nel mio portfolio!</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/filippo-brigati" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/brigati_filippo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.instagram.com/filippo.brigati/" title="Instagram"><i data-feather="instagram"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Unicode</h1>
+			<div class="meta">Posted at &mdash; Nov 27, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<p>L&rsquo;obiettivo dell&rsquo;attività era compiere un&rsquo;indagine per la realizzazione di tre progetti: il primo consisteva nel trovare
+dei componenti pre la realizzzazione di un assistente vocale, mentre il secondo consisteva nella ricerca di componenti per
+garantire la lettura del testo presente su una schermata, ed infine il terzo progetto consisteva nel trovare dei componenti per la
+realizzazione di un software che forsse in grado di riconoscere i movimenti di alcuni elementi grazie ad una fotocamera. Il progetto
+che abbiamo scelto è stato il il primo(<a href="https://docs.google.com/presentation/d/1oRfhUImVRlELUQut54HmJZMpCjII6XtgnJ-xhUT2Wjg/edit?usp=sharing">Link PowerPoint</a>) e abbiamo trovato tre possibili soluzioni:</p>
+<ol>
+<li>.NET Voice Recognition</li>
+<li>Sepia</li>
+<li>Jasper Project</li>
+</ol>
+<h3 id="net-voice-recognition">.Net Voice Recognition</h3>
+<p>Questa libreria è integrata all’interno di Microsoft .Net e quindi è utilizzabile su sistemi operativi windows, il suo funzionamento consiste nel riconoscere dei comandi vocali per eseguire di conseguenza delle operazioni specifiche, non sono presenti delle funzioni preimpostate quindi ogni comando vocale deve essere associato ad una operazione realizzata da zero. Di conseguenza supporta qualsiasi lingua (tra cui l’Italiano). Inoltre:</p>
+<ul>
+<li>La licenza è gratuita (sia a scopo personale che commerciale)</li>
+<li>Si può usare su un numero illimitato di postazioni</li>
+<li>Parte della Libreria è preinstallata nei S.O. Windows</li>
+<li><a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2014/december/voice-recognition-speech-recognition-with-net-desktop-applications">Link Documentazione Microsoft</a></li>
+</ul>
+<h3 id="sepia">Sepia</h3>
+<p>Sepia è un assistente vocale simile a Google Assistant, Siri, Cortana e Alexa ma a differenza di questi é open source e quindi completamente personalizzabile con nuovi comandi e istruzioni. Inoltre è multi-piattaforma e supporta Android, iOS, Linux e Windows ma può funzionare anche su piattaforme web, nativamente non supporta la lingua Italiana ma potendo aggiungere nuovi comandi può essere integrata in un secondo momento. Inoltre tutti i comandi non vengono tracciati e se si utilizzano risorse esterne viene utilizzato un profilo anonimo.</p>
+<ul>
+<li>La licenza è gratuita essendo Open Source</li>
+<li>Si può usare su un numero illimitato di postazioni</li>
+<li><a href="https://github.com/SEPIA-Framework/sepia-docs#welcome-to-the-documentation-page-for-sepia">Link Documentazione GitHub</a></li>
+<li><a href="https://sepia-framework.github.io">Link Sito Ufficiale</a></li>
+</ul>
+<h3 id="jasper">Jasper</h3>
+<p>Jasper è un programma open source che può essere comodamente installato su un dispositivo come un raspberryPI e insieme agli eventuali componenti fisici come microfoni e casse audio costituisce un assistente vocale, essendo open source lascia spazio ad eventuali personalizzazioni.</p>
+<ul>
+<li>La licenza è gratuita essendo Open Source</li>
+<li>Si può usare su un numero illimitato di postazioni</li>
+<li><a href="https://jasperproject.github.io/documentation/api/">Link Sito Ufficiale</a></li>
+</ul>
+<h4 id="obiettivo">Obiettivo</h4>
+<p>Il nostro obiettivo era di realizzare un progetto che consiste nello sviluppo di un assistente vocale che possa funzionare sul sistema operativo Windows in grado di poter analizzare le richieste vocali e eseguire i comandi dell’utente.</p>
+<h4 id="applicazioni">Applicazioni</h4>
+<p>Questi software potrebbero essere ottimizzati e modificati per assistere ,per esempio, i medici durante un’operazione chirurgica che, avendo le mani disinfettate, non possono toccare fisicamente i computer. Invece grazie a questi programmi potrebbero comunque interagire e compiere alcune operazioni senza distrarsi dal lavoro.</p>
+<h4 id="componenti">Componenti</h4>
+<table>
+<thead>
+<tr>
+<th>Componenti Necessari</th>
+<th>Costo Componenti</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microfono USB</td>
+<td>~ 20/30 €</td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>~ 30/40 €</td>
+</tr>
+<tr>
+<td>Rete</td>
+<td>Dipende</td>
+</tr>
+</tbody>
+</table>
+<h4 id="codice">Codice</h4>
+<p>Abbiamo cercato in rete in modo da trovare un codice che potesse funzionare in maniera ottimale sul sistema operativo windows e il più adatto era .NET Voice Recognition.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
